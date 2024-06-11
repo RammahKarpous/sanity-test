@@ -2,7 +2,7 @@ import { defineType, defineField } from 'sanity'
 
 export const workExperience = defineType({
     type: 'document',
-    name: 'workExperience',
+    name: 'work-experience',
     title: 'Work Experience',
     fields: [
         defineField({
@@ -20,5 +20,5 @@ export const workExperience = defineType({
             name: 'location',
             title: 'Location',
         }),
-    ]
+    ],
 })
