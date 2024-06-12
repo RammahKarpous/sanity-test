@@ -26,6 +26,9 @@ export const home = defineType({
         { name: "values", title: "Core values" }
     ],
     fields: [
+        /**
+         * Home page header
+         * */ 
         defineField({
             type: 'string',
             name: 'welcomeText',
@@ -73,6 +76,6 @@ export const home = defineType({
             type: "string",
             title: "URL",
             fieldset: "buttonProps"
-        })
+        }),
     ]
 });

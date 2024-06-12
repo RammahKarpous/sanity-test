@@ -1,7 +1,8 @@
 import React from "react";
+import Logo from "./Logo";
 
 // Components
-import Logo from "@/components/Logo";
+
 
 export default async function Navigation() {
     return (

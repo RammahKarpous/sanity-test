@@ -10,7 +10,7 @@ export default async function Header() {
     const { welcomeText, intro, title, buttonText, url, headerImage } = data[0];
 
     return (
-        <header className="grid grid-cols-2 gap-16 items-center">
+        <header className="grid grid-cols-2 gap-16 items-center container mx-auto mt-48">
             <div className="flex flex-col gap-5 items-start">
                 <div>
                     <h4 className="font-bold text-xl">{welcomeText}</h4>

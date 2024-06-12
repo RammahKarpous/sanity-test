@@ -24,10 +24,12 @@ export default defineConfig({
 						S.documentTypeListItem("work-experience").title("Work experience"),
 						S.documentTypeListItem("post").title("Blog posts"),
 						S.documentTypeListItem("project").title("Projects"),
+						S.documentTypeListItem("ourValues").title("Our values"),
 
 						S.divider(),
 						
 						listItem(S, "Home", "home"),
+						listItem(S, "Our mission", "mission"),
 						listItem(S, "Site settings", "settings"),
 						
 						S.divider(),
